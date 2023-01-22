@@ -1,5 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+/*top nav section work  */
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.top-section h2 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+.navbar ul li a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #424242;
+}
+
+/*========================= Banner section ====================== */
+.banner-container {
+  display: flex;
+  flex-direction: column;
 }
