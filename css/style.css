@@ -10,9 +10,8 @@
 }
 
 header {
-  margin: 50px auto;
-  padding: 0 8%;
-  background-color: rgba(255, 144, 14, 0.1);
+  padding: 2rem 8%;
+  background-color: rgba(255, 144, 14, 0.1) !important;
 }
 
 /*top nav section work  */
@@ -21,14 +20,17 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .top-section h2 {
   font-size: 2rem;
   cursor: pointer;
 }
+
 .navbar ul {
   display: flex;
   gap: 2rem;
 }
+
 .navbar ul li a {
   font-size: 1rem;
   font-weight: 500;
@@ -40,6 +42,7 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .banner-content {
   display: flex;
   flex-direction: column;
@@ -50,15 +53,18 @@ header {
   padding: 2rem auto;
   gap: 0.5rem;
 }
+
 .banner-content h1 {
   font-size: 2.5rem;
   font-weight: 700;
 }
+
 .banner-content p {
   font-size: 0.7rem;
   text-align: center;
   color: #727272;
 }
+
 .banner-content a {
   font-size: 1rem;
   font-weight: 600;
@@ -67,6 +73,138 @@ header {
   color: #ffffff;
   background-color: #ff900e;
 }
+
 .banner-container .img-section img {
   width: 100%;
+}
+
+/*===================== Feature 1 area ================== */
+
+.feature1 {
+  display: flex;
+  align-items: center;
+  margin: 3rem 14%;
+  gap: 2rem;
+}
+
+.feature1-img-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem;
+}
+
+.feature1-img-area img {
+  width: 100%;
+}
+
+.feature1-content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  max-width: 542px;
+}
+
+.feature1-content-area h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.feature1-content-area .gray-color {
+  color: #727272;
+  font-weight: 500;
+}
+
+.feature1-content-area .orange-color {
+  color: #ff900e;
+}
+
+.feature1-content-area p {
+  font-size: 0.7rem;
+  color: #727272;
+}
+
+.feature1-content-area a {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  background-color: #ff900e;
+}
+
+/*===================== Feature 2 area ================== */
+
+.feature2 {
+  display: flex;
+  column-gap: 6rem;
+  padding: 2rem 8%;
+}
+
+.feature2-content-area{
+  max-width: 450px;
+}
+
+.feature2-content-area .heading-content{
+  margin: 2rem auto;
+}
+
+.feature2-content-area .heading-content h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-left: 1rem;
+}
+
+.feature2-content-area .heading-content p{
+  color: #727272;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.heading-content .border-left {
+  border-left: 0.3rem solid orange;
+}
+
+.sub-content {
+  margin-bottom: 1rem;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+}
+
+.sub-content h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.sub-content p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #727272;
+}
+
+.feature2 .feature2-img-area img {
+  width: 90%;
+}
+
+.feature2-img-area .experience-card{
+  position: absolute;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  background-color: #FF900E;
+  
+}
+
+.feature2-img-area .experience-card h1{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.feature2-img-area .experience-card p{
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
