@@ -319,10 +319,25 @@ header {
 .sponsor-logo-area{
   display: grid;
   grid-template-columns: repeat(5,1fr);
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
 }
 .sponsor-logo-area img{
   width: 50%;
+  filter: grayscale();
+}
+
+.copy-right-area{
+  margin: 5rem 8%;
+  border-radius: 0.4rem;
+  background-color: #FFF4E7;
+}
+.copy-right-area p{
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #424242;
 }
